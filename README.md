@@ -1,3 +1,7 @@
+---
+title: homepage
+permalink: /
+---
 # note
 > 深度神经网络
 
