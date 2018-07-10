@@ -3,7 +3,7 @@ title: homepage
 permalink: /
 ---
 # note
-> 深度神经网络
+> Deep nerual networks
 
 `love` this word indicate he or she wants to enjoy his(her) entire life with you
 
