@@ -7,7 +7,7 @@ permalink: /
 
 `love` this word indicate he or she wants to enjoy his(her) entire life with you
 
-```
+```java
 public static void main(String[] args){
     System.out.println("Hello World!");
 }
