@@ -1,0 +1,8 @@
+# Site settings
+title: CS231n Convolutional Neural Networks for Visual Recognition
+baseurl: ""
+url: "https://cs231n.azfs.com.cn"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
