@@ -11,7 +11,6 @@ permalink: /
 public static void main(String[] args){
     System.out.println("Hello World!");
 }
-
 ```
 
 ![couples](http://pbnysx2de.bkt.clouddn.com/img/couples.jpg-note "love couple")
