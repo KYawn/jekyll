@@ -1,6 +1,6 @@
 ---
 title: hello
-permalink: /hello
+permalink: "/hello"
 ---
 
 ## hello world !
