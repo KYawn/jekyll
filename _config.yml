@@ -1,6 +1,6 @@
 ---
 title: Kaiya Xiong's Note
-timezone: UTC
+timezone: Asia/Shanghai
 collections:
   posts:
     title: Posts
@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-baseurl: ''
+baseurl: 
 url: https://note.azfs.com.cn
 markdown: kramdown
 permalink: pretty
@@ -18,3 +18,4 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
 theme: jekyll-theme-merlot
+Field name: 
