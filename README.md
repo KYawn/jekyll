@@ -12,5 +12,13 @@ public static void main(String[] args){
     System.out.println("Hello World!");
 }
 ```
+```python
+import numpy as np
 
-![couples](http://lib.azfs.com.cn/img/couples.jpg-note "love couple")
+
+def __init__():
+    self.name = name
+    self.age = age
+```
+
+![couples](https://lib.azfs.com.cn/img/couples.jpg-note "love couple")
