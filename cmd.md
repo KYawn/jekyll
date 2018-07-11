@@ -1,7 +1,9 @@
 ---
-title: cmd 部落格
+title: cmd buluo
 permalink: /cmd
 ---
+
+
 # 欢迎使用 Cmd Markdown 编辑阅读器
 
 ------
