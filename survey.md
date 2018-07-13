@@ -30,4 +30,4 @@ defensive techniques, four groups:
 
 ### 2. Introduction
 
-![image-20180713174138466](https://lib.azfs.com.cn/2018-07-13-094139.png-note)
+![image-20180713174138466](https://lib.azfs.com.cn/2018-07-13-094139.png)
