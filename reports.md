@@ -1,6 +1,6 @@
 ---
-permalink: /reports
 title: Weekly Reports
+permalink: "/reports"
 ---
 
 1. [第四周](http://lib.azfs.com.cn/pdf/学习汇报-熊凯亚-第四周.pdf)

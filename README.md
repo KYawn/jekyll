@@ -1,7 +1,8 @@
 ---
 title: homepage
-permalink: /
+permalink: "/"
 ---
+
 # note
 > Deep nerual networks
 
