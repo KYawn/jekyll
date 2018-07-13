@@ -30,4 +30,21 @@ defensive techniques, four groups:
 
 ### 2. Introduction
 
-![image-20180713174138466](https://lib.azfs.com.cn/2018-07-13-094139.png)
+### 3. Basic Concept, Model, Taxonomy
+#### 1. Basic of Machine Learning
+According to differences of feedbacks, machine learning related works can be categorized into three groups:
+* supervised learning: decision tree, support vector machine (SVM), neural networks, etc.
+* unsupervised learning: Clustering and auto-encoder.
+* reinforcement learning: optimizes behavior strategies via try-and-error.
+
+#### 2. Adversarial Model
+
+Biggio *et al.* argued that well-deﬁned adversarial model should be constructed with four dimensions, goal, knowledge, capability and attacking strategy. 
+
+1. Goal: can be clearly described using both the expected impacts and the attack speciﬁcity of security threats.
+2. Knowlodge: divided into two groups named **constrained knowledge** and **complete knowledge** by examining whether or not an attacker know training data, features, learning algorithms, decision functions, classiﬁer parameters and feedback information.
+3. Capability: qualitative interpreted from three aspects: (1) Is the impact of security threats causative or exploratory? (2) What is the percentage of training and testing data that are controlled by the attacker? (3) What is the extent of features and parameters that are known by the attacker?
+4. Attacking strategy: speciﬁc behaviors of manipulating training and testing data to effectively achieve his/her goals.
+
+#### 3. Security threats taxonomy
+
