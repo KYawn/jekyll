@@ -1,6 +1,6 @@
 ---
 title: homepage
-permalink: "/"
+permalink: /readme
 ---
 
 # note
