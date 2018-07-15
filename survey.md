@@ -3,6 +3,7 @@ title: Survey on Security and Privacy of Machine Learning
 permalink: /survey
 ---
 ## Survey on Security and Privacy of Machine Learning
+[TOC]
 ### Abstract
 > ML was used in image processing, natural language processing, pattern recognition, cybersecurity and other fields.
 
@@ -130,4 +131,15 @@ More work show that ***`transferable`*** adversarial samples could be generated 
 According to the degree of understanding knowledge in adversarial models, this type of attack can be generally classified into two groups: namely **white-box attack** and **black-box attack**.
 
 #### 3. Summary of Adversarial attacks against machine learning
+
+![image-20180715224335752](https://lib.azfs.com.cn/2018-07-15-144336.png)
+### 4. Defensive Techniques of Machine Learning
+
+#### 1. Security assessment mechanisms
+
+#### 2. Countermeasures in Training phase
+
+#### 3. Countermeasures in Testing/Inferring phase
+
+#### 4. Data security and privacy
 
