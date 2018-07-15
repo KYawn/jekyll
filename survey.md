@@ -4,6 +4,8 @@ permalink: /survey
 ---
 ## Survey on Security and Privacy of Machine Learning
 [TOC]
+* TOC
+{:toc}
 ### Abstract
 > ML was used in image processing, natural language processing, pattern recognition, cybersecurity and other fields.
 
