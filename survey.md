@@ -22,14 +22,6 @@ defensive techniques, four groups:
 * countermeasures in the testing or inferring phase
 * data security, and privacy
 
-ﬁve notable trends on security threats and defensive techniques of machine learning
-
-1. New security threats towards machine learning are constantly emerging.
-2. Security assessment on machine learning based decision systems in adversarial environments becomes a prevailing research area.
-3. Data privacy plays an important role in protecting the security of machine learning.
-4. Secure deep learning is a new growth point in the ﬁeld of machine learning security.
-5. Jointly optimizing security, generalization performance and overhead is required to design secure learning algorithms.
-
 ### 1. Introduction
 
 ### 2. Basic Concept, Model, Taxonomy
@@ -163,7 +155,59 @@ After that, it constructs sample training **TR** and testing **TS** sets accordi
 
 #### 2. Countermeasures in Training phase
 
+Two main countermeasures:
+
+* Ensuing the purity of training data.
+* Improving the robustness of learning algorithms.
+
+**Data Sanitization** : ensuring the purity of training data by separating adversarial samples from normal ones, and then removing these malicious samples. E.g., Reject on Negative Impact(RONI) defense tested the impact of each email in the training phase and did not train on message that had a large negative impact. To quantitatively measure impacts on the classification performance, the method **compare error rate between the original classifier and the new one**, which was retrained after adding new samples into the original training data, over the same testing data. If the error rate of the new classifier was much lower than that of the original one, then the new added samples were considered as malicious data and would be removed from training data.
+
+**Improving the robustness of learning algorithms** is another feasible defending technique, e.g., Bootstrap Aggregating and Random Subspace Method(RSM).
+
+**Design secure learning algorithms**, for example, Demontis *et al.* proposed a defending method that improved the security of linear classifier by learning more evenly-distributed feature weights.
+
 #### 3. Countermeasures in Testing/Inferring phase
 
+Focus on the improvement of learning algorithms' robustness.
+
+**Game theory**
+
+Tho *et al.* proposed invariant SVM algorithms using the min-max method to address the worst case feature manipulation activities in the testing phase.
+
+To improve the robustness, Scheffer *et al.* proposed Stackelberg Games for adversarial prediction problems and a nashSVM algorithm based on the Nash equilibrium. 
+
+Bulo *et al.* extended previous work and proposed a randomized prediction game by considering randomized strategy selections according to some probability distribution defined over the respective strategy set. Results show that this method could improve the trade-off between attack detection and false alarms of classifiers.
+
+**Active defense considering data distribution**
+
+The goal of adversarial samples in the testing/Inferring phase is to alter data distribution of test data. So, a feasible way of defending against adversaries is to **fit the testing data distribution by `retraining` learning models** by classifier designers with adversarial samples. So that the new trained classifier are able to detect anomalies in the testing phase. 
+
+**Smoothing model output**
+
+Is also effective to strengthen the robustness of learning models.
+
+To protect deep learning algorithms in adversarial settings, **`defensive distillation`** was proposed to defend against adversarial samples on DNNs. Papernot *et al.* analyzed the generalization and robustness properties of defensive distillation. Comparative results validated that the technique could effectively enhance the performance of two DNNs with different architectures to detect adversarial samples in terms of the success rate of adversarial sample crafting from 95.86%(87.89%) to 0.45%(5.11%) on the MINST(CIFAT-10) data set.
+
+**`Dimension reduction`**: can be used to protect machine learning models from evasion attacks. This strategy aimed to enhance the resilience of classifiers by reducing the dimension of sample features.
+
+
+
 #### 4. Data security and privacy
+
+* **Differential Privacy**
+* Homomorphic encryption
+* Multi-party computation
+* K-means clustering algorithms
+
+
+
+### 5. Challenges and future opportunities 
+
+Five notable trends on security threats and defensive techniques of machine learning
+
+1. New security threats towards machine learning are constantly emerging.
+2. Security assessment on machine learning based decision systems in adversarial environments becomes a prevailing research area.
+3. Data privacy plays an important role in protecting the security of machine learning.
+4. Secure deep learning is a new growth point in the ﬁeld of machine learning security.
+5. Jointly optimizing security, generalization performance and overhead is required to design secure learning algorithms.
 
