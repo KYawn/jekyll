@@ -157,7 +157,7 @@ Fig. 5 illustrates an example of proactive security assessment considering data 
 
 First, select proper adversarial models with respect to the hypothesized attack scenario defined at the conceptual level by making assumptions on the goal, knowledge, capacity and corresponding strategy.
 
-Then, it defines the distributions p(Y), p(A|Y) and p(**X**|Y, A) for training and testing data, where Y belongs to set {L, M} and A belongs to set {F, T} respectively refer to class labels (L:legitimate; M:malicious) and a Boolean random variable representing whether or not a given sample has been manipulated (A=T) or not(A=F).
+Then, it defines the distributions p(Y), p(A\|Y) and p(**X**\|Y, A) for training and testing data, where Y belongs to set {L, M} and A belongs to set {F, T} respectively refer to class labels (L:legitimate; M:malicious) and a Boolean random variable representing whether or not a given sample has been manipulated (A=T) or not(A=F).
 
 After that, it constructs sample training **TR** and testing **TS** sets according to the data model defined before, given k>=1 Paris of data sets $(D_{TR}^I, D_{TS}^i), i=1,...,k$ that are obtained from classical `resampling` techniques, e.g., `cross-validation` or `bootstrapping`. Finally, the classifier performance with the presence of simulated attack is evaluated using the constructed(TR^i, TS^i) pairs.
 
