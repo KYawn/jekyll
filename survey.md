@@ -109,9 +109,25 @@ More powerful adversary model has the capability of modifying extracted features
 
 Utilizing the trained model to classifying or clustering new data. The most common types of security threats against the testing/Inferring phase include `spoofing` (for example, `evasion` and `impersonate` threats) and `Inversion attack`.
 
-**Evasion attack**: main idea is that an attacker generates some adversarial samples that are able to evade detection such that overall security of target systems is significantly reduced.
+**1) Evasion attack**: main idea is that an attacker generates some adversarial samples that are able to evade detection such that overall security of target systems is significantly reduced.
 
 * Attack and Defense: generate the optimal adversarial samples to evade detection via gradient algorithms.
 * Evasion attacks was feasible for use to attack against FRS and malware detection real world, resulting in severe security threats towards target systems.
 
-**Impersonate attack**: **imitate data samples from victims**, use in image recognition, malware detection. 
+**2) Impersonate attack**: **imitate data samples from victims**, use in image recognition, malware detection. Attacker aims to generate specific adversarial samples such that existing machine learning-based systems wrongly classify the original samples with different labels from the impersonated ones. Such attack is **particularly effective in attacking DNN algorithms** because *DNN usually extracts a small feature set to facilitate the object identification*. So, attacker can easily launch impersonate attacks by **modifying some key features**.
+
+* Electrical world: Use a revised genetic algorithm called Multi-dimensional Archive of Phenotypic Elites(MAP-Elites), to generate the optimal adversarial samples after evolving images from different categories. Then, these samples were fed into AlexNet and Le-Net-5 network, resulting in the performance reduction of DNNs.
+* Physical world: adversary generated electronic adversarial samples via the least likely class method. Then these adversarial images were printed out to serve as the input of camera. Due to the feature loss during printing and photography, the successful rate was much lower than that in electrical world. But it also validated the feasibility of impersonate attacks in real world.
+
+More work show that ***`transferable`*** adversarial samples could be generated from `ensemble learning`, where the output samples from one DNN were effective for use to attack against other DNNs.
+
+*Hidden voice commands* :
+
+> Real experiments: the voice with no meanings in the perspective of human-beings could be used to emulate real voice control commands.
+
+**3) Inversion attack** : utilizes the API provided by existing machine learning systems to gather some basic information regarding target system models. Then, the basic information is fed into **reverse analysis** followed by the leakage of privacy data embedded in target models.
+
+According to the degree of understanding knowledge in adversarial models, this type of attack can be generally classified into two groups: namely **white-box attack** and **black-box attack**.
+
+#### 3. Summary of Adversarial attacks against machine learning
+
