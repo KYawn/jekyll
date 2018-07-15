@@ -3,6 +3,7 @@ title: Survey on Security and Privacy of Machine Learning
 permalink: /survey
 ---
 ## Survey on Security and Privacy of Machine Learning
+* TOC
 {:toc}
 ### Abstract
 > ML was used in image processing, natural language processing, pattern recognition, cybersecurity and other fields.
@@ -135,7 +136,18 @@ According to the degree of understanding knowledge in adversarial models, this t
 ![image-20180715224335752](https://lib.azfs.com.cn/2018-07-15-144336.png)
 ### 4. Defensive Techniques of Machine Learning
 
+![image-20180715235824018](https://lib.azfs.com.cn/2018-07-15-155824.png)
+
 #### 1. Security assessment mechanisms
+
+Most of existing assessing techniques focus on quantitatively evaluating the performance of various learning algorithms rather than their security.
+A designer first introduces adversarial assumptions towards classifer vulnerabilities. Then, the designer proposes countermeasures to protect classifiers from the adversaries. There are two types of defensive mechanisms, i.e., **proactive defense** and **reactive defense**, as illustrated in Fig. 4.
+![image-20180715235759999](https://lib.azfs.com.cn/2018-07-15-155800.png)
+
+The notable differences between proactive and reactive defending mechanisms include the following two aspects:
+
+* The attacking and defending subjects are both the classifier designer in proactive defense.
+* The designer only performs penetration testing to uncover vulnerabilities rather than a true attack against the classifier. In other words, penetration testing in the proactive defending mechanism and attacking in the reactive one are benign and malicious, respectively.
 
 #### 2. Countermeasures in Training phase
 
