@@ -1,5 +1,5 @@
 #!/bin/bash
-# add changed files to commit
+# add changed files to commit auto
 git add .
 # commit the chages
 git commit -m "commit automatically"
