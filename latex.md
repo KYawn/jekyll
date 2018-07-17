@@ -1,6 +1,6 @@
 ---
-Title: LaTex on Sublime Text
-Permalink: /latex
+title: LaTex on Sublime Text
+permalink: /latex
 ---
 
 ### Sublime Text中LaTex环境的配置
@@ -12,11 +12,8 @@ Permalink: /latex
 {
     "debug": false,
     "fallback_encoding": "utf_8",
-    // 打开.tex的同时打开.pdf文件
     "open_pdf_on_load": false,
-    // 某些宏包需要这个参数，如：minted
     "build_arguments": ["-shell-escape"],
-    // 使用xelatex而不是pdflatex进行编译
     "quick_build": [
         {
             "name": "Default Build: latexmk",
