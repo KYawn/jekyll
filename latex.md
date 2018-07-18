@@ -103,10 +103,10 @@ $0
 \\usepackage{caption}
 \\captionsetup{font={scriptsize}}
 \\renewcommand\figurename{图}
-\\newcommand\blfootnote[1]{%
+\\newcommand\blfootnote[1]{
   \begingroup
-  \renewcommand\thefootnote{}\footnote{#1}%
-  \addtocounter{footnote}{-1}%
+  \renewcommand\thefootnote{}\footnote{#1}
+  \addtocounter{footnote}{-1}
   \endgroup
 }
 % \usepackage{tikz}
