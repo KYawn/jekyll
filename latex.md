@@ -5,7 +5,7 @@ permalink: /latex
 
 ### Sublime Text中LaTex环境的配置
 
-工具：LaTexing插件、MacTex（Mac），MiKTex（Win）
+工具：LaTexing插件、MacTex（Mac），MiKTex（Win）,注意Win上安装MiKTex时路径不能有空格，不然会报路径中找不到latexmk命令。当使用CTex套件安装MiKTex时，其中latexmk包的版本可能比较低，会导致latexing无法打开日志文件等错误。
 
 #### 1. LaTexing插件配置
 ```json
